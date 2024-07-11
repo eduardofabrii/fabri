@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-first);
+}
+
+:root {
+    --color-first: rgb(219, 219, 219);
+    --color-second: rgb(3, 63, 152);
+}
+
+/* Evita com que tenha uma barra branca na lateral direita */
+html, body {
+    overflow-x: hidden !important;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: rgb(8, 87, 206);
+}
+
+.logo_name {
+    color: var(--color-first);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: white;
+    font-weight: 100;
+}
+
+.zerosection {
+    height: 100vh;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutme {
+    width: 500px;
+    height: 360px;
+    padding-top: 250px;
+    padding-left: 310px;
+}
+
+.aboutme > h1 {
+    padding: 5px 1px 0 0;
+    font-size: 4em;
+}
+
+.aboutme > .one, .two {
+    font-size: 1.5em;
+}
+
+.aboutme > p {
+    font-size: 2em;
+}
+
+.icondevelopers {
+    margin: 30px 0;
+    display: inline;
+    font-size: 1.2em;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.one {
+    padding: 5px 15px;
+    margin: 0 8px 0 0;
+    background-color: var(--color-second);
+    border-radius: 10px;
+}
+
+.three {
+    font-weight: bold;
+    width: 110px;
+    height: 35px;
+    display: inline-flex;
+    padding: 10px 15px;
+    margin: 10px 10px 0 0;
+    text-align: center;
+    background-color: var(--color-second);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.four {
+    margin: 20px;
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: var(--color-first);
+    background-color: var(--color-second);
+    border-radius: 50%;
+}
+
+#seemywork {
+    display: inline;
+    font-size: 1em;
+}
+
+.firstsection {
+    height: 700px;
+    display: flex;
+    background-color: black;
+}
+
+.eduardophoto {
+    padding-top: 100px;
+    padding-left: 320px;
+    box-shadow: rgba(0, 0, 0, 0.063) 0 0 10px 10px;
+}
+
+.eduardophoto img {
+    border-radius: 10px;
+}
+
+.textme {
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    margin: 100px 100px;
+}
+
+.textme > h3 {
+    font-weight: 500;
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+.textme > p {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.icons-me {
+    display: flex;
+    background-color: var(--color-second);
+    width: 170px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-me a {
+    margin: 0 5px;
+}
+
+.twosection {
+    background-image: url(../images/background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    height: 750px;
+    padding-top: 100px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.ulprojects {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.threesection {
+    height: 600px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ullanguages {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages h2 {
+    padding: 25px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.lang {
+    background-color: var(--color-second);
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.lang img {
+    width: 250px;
+    height: auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.959);
+    color: var(--color-first);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.footer-container h3 {
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-container p {
+    font-weight: 300;
+    text-align: justify;
+}
+
+.social {
+    padding-left: 30px;
+}

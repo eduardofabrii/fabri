@@ -1,0 +1,135 @@
+
+@media (max-width: 1172px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    ul li {
+        margin: 0 15px;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: var(--color-first);
+    }
+
+    .zerosection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .aboutme {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .aboutme > h1 {
+        padding-top: 30px;
+        font-size: 3em;
+    }
+
+    .aboutme > p {
+        font-size: 1.2em;
+    }
+
+    .icondevelopers {
+        margin: 30px 0;
+        display: inline;
+        font-size: 1.2em;
+        width: 50px;
+        vertical-align: middle;
+    }
+
+    .firstsection {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .eduardophoto img {
+        max-width: 300px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eduardophoto {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .textme {
+        margin-top: 0;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .icons-me {
+        width: 200px;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .twosection {
+        text-align: center;
+    }
+
+    .projects {
+        height: 600px;
+    }
+
+    .ulprojects {
+        grid-auto-rows: 1fr; 
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;grid-auto-rows: 1fr; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;
+    }
+
+    .boxs {
+        max-width: 130px;
+        width: 80px;
+        height: 150px; 
+        padding: 20px;
+    }
+
+    .threesection {
+        height: 100%;
+    }
+
+    .languages {
+        width: 100%;
+    }
+
+    .ullanguages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lang img {
+        max-width: 200px;
+        height: auto;
+        background-color: var(--color-second);
+        border-radius: 10px;
+    }
+
+    .lang {
+        margin: 10px;
+    }
+}
